@@ -79,17 +79,11 @@ class Owner
     #   each_fish.mood = "nervous"
     #   each_fish.clear
     # end
-    @pets.each do |pet|
-      pet.each do |each_pet|
-        each_pet.mood = "nervous"
-      end
-    end
-    # @pets[:fishes].clear
-    # @pets[:cats].clear
-    # @pets[:dogs].clear
-    # owner.dog.mood = "nervous"
-    # owner.cat.mood = "nervous"
-    # owner.fish.mood = "nervous"
+    # @pets.each do |pet|
+    #   pet.each do |each_pet|
+    #     each_pet.mood = "nervous"
+    #   end
+    # end
   end
 
   def list_pets #list off pets
