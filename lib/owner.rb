@@ -75,11 +75,6 @@ class Owner
   end
 
   def list_pets #list off pets
-    result = "I have "
-    @pets.each do |pet|
-      result = result << "#{pet.count} #{pet.name}"
-    end
-    result + "."
-  end
-
+    "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
+  end 
 end
