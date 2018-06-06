@@ -71,7 +71,6 @@ class Owner
     @pets.each do |pet_of_each_kind|
       pet_of_each_kind.each do |each_pet|
         each_pet.mood = "nervous"
-        binding.pry
       end
     end
   end
