@@ -73,6 +73,7 @@ class Owner
         each_pet.mood = "nervous"
       end
     end
+    @pets.clear 
   end
 
   def list_pets #list off pets
