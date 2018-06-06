@@ -82,5 +82,4 @@ class Owner
     result + "."
   end
 
-
 end
