@@ -1,4 +1,4 @@
-require 'pry' 
+require 'pry'
 class Owner
 
   attr_accessor :pets, :name
@@ -68,10 +68,10 @@ class Owner
   end
 
   def sell_pets #sell all its pets, which make them nervous
-    @pets.each do |pet_of_each_kind| 
+    @pets.each do |pet_of_each_kind|
       pet_of_each_kind.each do |each_pet|
-        #binding.pry
         each_pet.mood = "nervous"
+        binding.pry
       end
     end
   end
